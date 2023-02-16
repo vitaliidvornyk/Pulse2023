@@ -2,25 +2,38 @@
     .container {
         max-width: 800px;
     }
-    .promo__header {
-        font-size: 36px;
+
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+        &__wrapper {
+            margin-top: 70px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            margin-top: 40px;
+        }
+        &__link {
+            font-size: 15px;
+        }
     }
-    .promo__wrapper {
-        margin-top: 70px;
-    }
-    .promo__subheader {
-        font-size: 20px;
-    }
-    .promo__icons {
-        margin-top: 40px;
-    }
+
     .button_main {
         margin-top: 35px;
         width: 260px;
         height: 45px;
         font-size: 14px;
     }
-    .promo__link {
-        font-size: 15px;
+
+    .advantages {
+        &__wrapper {
+            margin-top: 45px;
+        }
+        &__item {
+            max-width: 200px;
+        }
     }
 }

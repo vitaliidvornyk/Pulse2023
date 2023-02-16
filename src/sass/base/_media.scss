@@ -1,45 +1,50 @@
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .container {
-        max-width: 800px;
+        max-width: 600px;
     }
 
     .promo {
-        &__header {
-            font-size: 36px;
+        min-height: 600px;
+        .header {
+            &__logo {
+                width: 200px;
+            }
+            &__official {
+                font-size: 10px;
+                span {
+                    font-size: 16px;
+                }
+            }
+            &__phone {
+                font-size: 16px;
+            }
+            .button {
+                width: 140px;
+                height: 25px;
+            }
         }
         &__wrapper {
-            margin-top: 70px;
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 37px;
         }
         &__subheader {
-            font-size: 20px;
+            font-size: 21px;
         }
         &__icons {
-            margin-top: 40px;
+            margin-top: 50px;
+            width: 413px;
+        }
+        .button {
+            &_main {
+                margin-top: 55px;
+                width: 260px;
+                height: 45px;
+            }
         }
         &__link {
-            font-size: 15px;
-        }
-    }
-
-    .button_main {
-        margin-top: 35px;
-        width: 260px;
-        height: 45px;
-        font-size: 14px;
-    }
-
-    .advantages {
-        &__wrapper {
-            margin-top: 45px;
-        }
-        &__item {
-            max-width: 200px;
-        }
-    }
-
-    .title {
-        &_left {
-            font-size: 30px;
+            font-size: 14px;
         }
     }
 }
